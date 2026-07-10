@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treino F</title>
+    <link rel="stylesheet" href="treinos.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Full Body</h1>
+    <button class="back" onclick="history.back()">voltar</button>
+    <section class="container">
+        <div class="box">
+            <h2 class="title txt">Barra Fixa Frotal</h2>
+            <h3 class="txt">(Mãos pronadas e braços Abertos)</h3>
+            <h3 class="txt">Séries -</h3>
+            <p class="txt">6X6</p>
+            <h3 class="txt">Descanso: 40seg a 1min</h3>
+            <button class="btn" id="btnAbrirVideo">VÍDEO</button>
+        </div>
+        <div class="box">
+            <h2 class="title txt">Levantamento Terra no Smith</h2>
+            <h3 class="txt">(Carga máxima)</h3>
+            <h3 class="txt">Séries -</h3>
+            <p class="txt">4X8</p>
+            <h3 class="txt">Descanso: 40seg a 1min</h3>
+            <button class="btn" id="btnAbrirVideo">VÍDEO</button>
+        </div>
+        <div class="box">
+            <h2 class="title txt">Supino Reto</h2>
+            <h3 class="txt">(Carga máxima)</h3>
+            <h3 class="txt">Séries -</h3>
+            <p class="txt">1X20 + 3X6</p>
+            <h3 class="txt">Descanso: 40seg a 1min</h3>
+            <button class="btn" id="btnAbrirVideo">VÍDEO</button>
+        </div>
+        <div class="box">
+            <h2 class="title txt">Elevação Lateral com Halteres</h2>
+            <h3 class="txt">(Carga máxima)</h3>
+            <h3 class="txt">Séries -</h3>
+            <p class="txt">4X6</p>
+            <h3 class="txt">Descanso: 40seg a 1min</h3>
+            <button class="btn" id="btnAbrirVideo">VÍDEO</button>
+        </div>
+        <div class="box">
+            <h2 class="title txt">Abdominal Infra Solo</h2>
+            <h3 class="txt">(Pernas estendidas)</h3>
+            <h3 class="txt">Séries -</h3>
+            <p class="txt">3X15</p>
+            <h3 class="txt">Descanso: 40seg a 1min</h3>
+            <button class="btn" id="btnAbrirVideo">VÍDEO</button>
+        </div>
+        <div class="box">
+            <h2 class="title txt">Abdominal Supra Solo</h2>
+            <h3 class="txt">Séries -</h3>
+            <p class="txt">3X20</p>
+            <h3 class="txt">Descanso: 40seg a 1min</h3>
+            <button class="btn" id="btnAbrirVideo">VÍDEO</button>
+        </div>
+        <div class="box">
+            <h2 class="title txt">Abdominal V</h2>
+            <h3 class="txt">(Sentado no Banco)</h3>
+            <h3 class="txt">Séries -</h3>
+            <p class="txt">3X15</p>
+            <h3 class="txt">Descanso: 40seg a 1min</h3>
+            <button class="btn" id="btnAbrirVideo">VÍDEO</button>
+        </div>
+    </section>
+
+    <div id="videoCard">
+        <span class="fechar" onclick="fecharVideo()">&times;</span>
+        <br>
+        <video id="meuVideo" width="640" controls>
+            <source id="fonteVideo" src="" type="video/mp4">
+            Seu navegador não suporta a tag de vídeo.
+        </video>
+    </div>
+    
+</body>
+</html>

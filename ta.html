@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treino A</title>
+    <link rel="stylesheet" href="treinos.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Deltóide | Trapézio | Peito</h1>
+    <button class="back" onclick="history.back()">voltar</button>
+    <section class="container">
+        <div class="box">
+            <h2 class="title txt">Arnold Press Alternado / Elevação Frotal com Barra</h2>
+            <h3 class="txt">(Mãos pronadas)</h3>
+            <h3 class="txt">Séries -</h3>
+            <p class="txt">3X12/12</p>
+            <h3 class="txt">Descanso: 40seg a 1min</h3>
+            <div class="video-buttons">
+                <button class="btn" data-url="videos/video1.mp4">VÍDEO 1</button>
+                <button class="btn" data-url="videos/video1.2.mp4">VÍDEO 2</button>
+            </div>
+        </div>
+        <div class="box">
+            <h2 class="title txt">Elevação Lateral com Halteres Dropset</h2>
+            <h3 class="txt">(Regressão de carga)</h3>
+            <h3 class="txt">Séries -</h3>
+            <p class="txt">3X10/12/15</p>
+            <h3 class="txt">Descanso: 40seg a 1min</h3>
+            <button class="btn" data-url="videos/video2.mp4">VÍDEO</button>
+        </div>
+        <div class="box">
+            <h2 class="title txt">Elevação Uniateral na Polia Baixa</h2>
+            <h3 class="txt">(Cabo passando pela frente do corpo)</h3>
+            <h3 class="txt">Séries -</h3>
+            <p class="txt">3X12</p>
+            <h3 class="txt">Descanso: 40seg a 1min</h3>
+            <button class="btn" data-url="videos/video3.mp4">VÍDEO</button>
+        </div>
+        <div class="box">
+            <h2 class="title txt">Cruxifíxo Inverso Simultâneo em Pé</h2>
+            <h3 class="txt">(Polia alta)</h3>
+            <h3 class="txt">Séries -</h3>
+            <p class="txt">3X12</p>
+            <h3 class="txt">Descanso: 40seg a 1min</h3>
+            <button class="btn" data-url="videos/video4.mp4">VÍDEO</button>
+        </div>
+        <div class="box">
+            <h2 class="title txt">Face Pull Dropset</h2>
+            <h3 class="txt">(Regressão carga)</h3>
+            <h3 class="txt">Séries -</h3>
+            <p class="txt">3X10/12/15</p>
+            <h3 class="txt">Descanso: 40seg a 1min</h3>
+            <button class="btn" data-url="videos/video5.mp4">VÍDEO</button>
+        </div>
+        <div class="box">
+            <h2 class="title txt">Remada Alta na Polia Baixa</h2>
+            <h3 class="txt">(Carga máxima)</h3>
+            <h3 class="txt">Séries -</h3>
+            <p class="txt">1X30 + 3X8</p>
+            <h3 class="txt">Descanso: 40seg a 1min</h3>
+            <button class="btn" data-url="videos/video6.mp4">VÍDEO</button>
+        </div>
+        <div class="box">
+            <h2 class="title txt">Supino Inclinado Vertical Articulado Máquina</h2>
+            <h3 class="txt">(Carga máxima)</h3>
+            <h3 class="txt">Séries -</h3>
+            <p class="txt">4X8</p>
+            <h3 class="txt">Descanso: 40seg a 1min</h3>
+            <button class="btn" data-url="videos/video7.mp4">VÍDEO</button>
+        </div>
+    </section>
+
+    <div id="videoCard">
+        <span class="fechar" onclick="fecharVideo()">&times;</span>
+        <br>
+        <video id="meuVideo" width="640" controls>
+            <source id="fonteVideo" src="" type="video/mp4">
+            Seu navegador não suporta a tag de vídeo.
+        </video>
+    </div>
+
+</body>
+</html>
