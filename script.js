@@ -17,6 +17,22 @@ function fecharVideo() {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
+    var boxes = document.querySelectorAll('.box');
+
+    boxes.forEach(function(box) {
+        if (!box.querySelector('.card-check')) {
+            var label = document.createElement('label');
+            label.className = 'card-check';
+
+            var checkbox = document.createElement('input');
+            checkbox.type = 'checkbox';
+            checkbox.className = 'card-checkbox';
+
+            label.appendChild(checkbox);
+            box.appendChild(label);
+        }
+    });
+
     var botoes = document.querySelectorAll('.btn');
 
     botoes.forEach(function(botao) {
